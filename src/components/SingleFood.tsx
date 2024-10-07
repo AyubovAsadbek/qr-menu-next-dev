@@ -46,17 +46,18 @@ const SingleFood = ({ food }: SingleFoodProps) => {
             modules={[Pagination, Navigation]}
             className="mySwiper w-full h-full"
           >
-            {food.foodImages.map((image, index) => (
-              <SwiperSlide key={index}>
-                <Image
-                  width={264}
-                  height={264}
-                  src={image}
-                  alt="Single Food Image"
-                  className="w-full h-full object-cover"
-                />
-              </SwiperSlide>
-            ))}
+            {Array.isArray(food.foodImages) &&
+              food.foodImages.map((image, index) => (
+                <SwiperSlide key={index}>
+                  <Image
+                    width={264}
+                    height={264}
+                    src={image}
+                    alt="Single Food Image"
+                    className="w-full h-full object-cover"
+                  />
+                </SwiperSlide>
+              ))}
           </Swiper>
         </div>
 
