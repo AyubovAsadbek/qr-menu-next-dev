@@ -11,7 +11,7 @@ import Image from "next/image";
 import { Icon } from "@/components/Icon";
 type Food = {
   foodName: string;
-  foodImage: string;
+  foodImages: string;
   oldPrice?: string;
   newPrice: string;
   discount?: string;
@@ -29,7 +29,7 @@ const MenuPage = () => {
   return (
     <div className="sm:container mt-4 flex relative z-0 flex-col sm:flex-row gap-1 sm:gap-6 justify-between sm:pb-0 pb-20">
       {/* Menu Left */}
-      <div className="flex-y gap-2 sm:gap-5 w-full sticky top-[66px] z-10 sm:max-w-[220px] lg:max-w-[344px] sm:bg-transparent bg-white sm:py-0 py-2 pt-3 sm:border-none border-b border-white-300">
+      <div className="flex-y gap-2 sm:gap-5 w-full sticky top-[66px] z-20 sm:max-w-[220px] lg:max-w-[344px] sm:bg-transparent bg-white sm:py-0 py-2 pt-3 sm:border-none border-b border-white-300">
         {/* Back to Menu Link */}
         <Link
           href="/"
@@ -95,7 +95,7 @@ const MenuPage = () => {
 
       {/* Single Dialog */}
       <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-        <DialogContent className="max-w-[712px] sm:h-auto h-full rounded-none sm:rounded-2xl">
+        <DialogContent className="max-w-[712px] sm:h-auto h-full rounded-none sm:rounded-2xl focus:outline-none">
           {selectedFood && <SingleFood food={selectedFood} />}
         </DialogContent>
       </Dialog>

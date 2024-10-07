@@ -15,7 +15,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Big sanders burger spicy",
@@ -24,7 +29,12 @@ const CategoryData = [
         discount: "45",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Chief tower original",
@@ -33,7 +43,12 @@ const CategoryData = [
         discount: "32",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Big chief tower original burger",
@@ -42,7 +57,12 @@ const CategoryData = [
         discount: "40",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Chief burger original",
@@ -51,7 +71,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Chief burger spicy double",
@@ -60,7 +85,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "De luxe cheeseburger",
@@ -69,7 +99,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Cheeseburger",
@@ -78,7 +113,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
     ],
   },
@@ -98,7 +138,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -107,7 +152,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -116,7 +166,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -125,7 +180,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
     ],
   },
@@ -145,7 +205,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -154,7 +219,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -163,7 +233,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -172,7 +247,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
     ],
   },
@@ -192,7 +272,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -201,7 +286,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -210,7 +300,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -219,7 +314,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
     ],
   },
@@ -239,7 +339,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -248,7 +353,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -257,7 +367,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -266,7 +381,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
     ],
   },
@@ -286,7 +406,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -295,7 +420,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -304,7 +434,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -313,7 +448,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
     ],
   },
@@ -333,7 +473,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -342,7 +487,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -351,7 +501,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
       {
         foodName: "Sanders burger original",
@@ -360,7 +515,12 @@ const CategoryData = [
         discount: "50",
         description:
           "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-        foodImage: "/images/svg/food.svg",
+        foodImages: [
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+          "/images/svg/food.svg",
+        ],
       },
     ],
   },
@@ -510,6 +670,12 @@ const BottomNavItems = [
     iconName: "shopping-icon",
     href: "/basket",
   },
+  // {
+  //   id: "profile",
+  //   label: "Профиль",
+  //   iconName: "profile-icon",
+  //   href: "/profile",
+  // },
 ];
 
 const workingDaysData = [
@@ -531,7 +697,12 @@ const basketItems = [
     discount: "50",
     description:
       "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-    foodImage: "/images/svg/food.svg",
+    foodImages: [
+      "/images/svg/food.svg",
+      "/images/svg/food.svg",
+      "/images/svg/food.svg",
+      "/images/svg/food.svg",
+    ],
   },
   {
     foodName: "Big sanders burger spicy",
@@ -540,7 +711,12 @@ const basketItems = [
     discount: "45",
     description:
       "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-    foodImage: "/images/svg/food.svg",
+    foodImages: [
+      "/images/svg/food.svg",
+      "/images/svg/food.svg",
+      "/images/svg/food.svg",
+      "/images/svg/food.svg",
+    ],
   },
   {
     foodName: "Chief tower original",
@@ -549,7 +725,12 @@ const basketItems = [
     discount: "32",
     description:
       "Boxmaster, Quadruple coca-cola, Full Basket, twister senior, longer and whatever else you may want to add, litterally anything from our large menu",
-    foodImage: "/images/svg/food.svg",
+    foodImages: [
+      "/images/svg/food.svg",
+      "/images/svg/food.svg",
+      "/images/svg/food.svg",
+      "/images/svg/food.svg",
+    ],
   },
 ];
 

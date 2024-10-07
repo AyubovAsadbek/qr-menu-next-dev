@@ -4,10 +4,18 @@ import { Icon } from "./Icon";
 import Image from "next/image";
 import Button from "./Button";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/effect-cube";
+import "swiper/css/pagination";
+
+import { EffectCube, Pagination } from "swiper/modules";
+
 type BasketCardProps = {
   food: {
     foodName: string;
-    foodImage: string;
+    foodImages: string;
     oldPrice?: string;
     newPrice: string;
     discount?: string;
@@ -16,21 +24,39 @@ type BasketCardProps = {
 
 const BasketCard = ({ food }: BasketCardProps) => {
   return (
-    <div className="h-auto z-0 text-left bg-white rounded-xl sm:hover:shadow-foodCardHover  cursor-pointer transition-300 p-3 flex-y-center gap-3">
+    <div className="h-auto z-0 text-left bg-white rounded-xl sm:hover:shadow-foodCardHover  cursor-pointer transition-300 p-3 flex-y-center gap-3 foodCard">
       {/* Cart Left */}
-      <div className="relative min-w-[104px] sm:h-[104px] rounded-md sm:rounded-xl border border-white-100 overflow-hidden">
+      <div className="relative min-w-[104px] sm:w-[104px]  h-[104px] rounded-md sm:rounded-xl border border-white-100 overflow-hidden">
         {food.discount && (
-          <span className="absolute left-0 top-0 py-1 px-1.5 bg-red rounded-tl-md sm:rounded-tl-xl rounded-br-md sm:rounded-br-xl text-white text-xs">
+          <span className="absolute left-0 top-0 py-1 px-1.5 bg-red rounded-tl-md sm:rounded-tl-xl rounded-br-md sm:rounded-br-xl text-white text-xs z-10">
             -{food.discount}%
           </span>
         )}
-        <Image
-          src={food.foodImage}
-          alt="Food Image"
-          width={80}
-          height={80}
-          className="w-full h-full"
-        />
+        <Swiper
+          effect={"cube"}
+          grabCursor={true}
+          cubeEffect={{
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 20,
+            shadowScale: 0.94,
+          }}
+          pagination={true}
+          modules={[EffectCube, Pagination]}
+          className="w-full h-full FoodCardSwiper"
+        >
+          {food.foodImages.map((image, index) => (
+            <SwiperSlide key={index} className="w-full h-full">
+              <Image
+                src={image}
+                alt="Food Image"
+                width={80}
+                height={80}
+                className="w-full h-full"
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
       </div>
       {/* Card Right */}
       <div className="flex flex-col w-full justify-between h-full">

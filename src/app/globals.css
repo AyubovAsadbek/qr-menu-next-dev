@@ -40,3 +40,29 @@
     display: none;
   }
 }
+
+.foodCard:hover .swiper-pagination {
+  opacity: 100 !important;
+}
+
+.FoodCardSwiper .swiper-pagination {
+  bottom: 4px !important;
+  display: flex !important;
+  gap: 4px !important;
+  justify-content: center !important;
+}
+
+.FoodCardSwiper .swiper-pagination-bullet {
+  width: 14px !important;
+  height: 2px !important;
+  border-radius: 10px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+
+@media screen and (min-width: 640px) {
+  .FoodCardSwiper .swiper-pagination {
+    opacity: 0 !important;
+    gap: 2px !important;
+  }
+}

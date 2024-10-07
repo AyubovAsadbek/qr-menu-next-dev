@@ -1,13 +1,26 @@
+"use client";
 import Image from "next/image";
 import React from "react";
 import DiscoutTime from "./DiscoutTime";
 import { Icon } from "./Icon";
 import FoodRating from "./FoodRating";
 import FeedbackCard from "./FeedbackCard";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+// import required modules
+import { Pagination, Navigation } from "swiper/modules";
+
 type SingleFoodProps = {
   food: {
     foodName: string;
-    foodImage: string;
+    foodImages: string;
     oldPrice?: string;
     newPrice: string;
     discount?: string;
@@ -24,13 +37,27 @@ const SingleFood = ({ food }: SingleFoodProps) => {
       <div className="px-0 sm:px-5 sm:flex justify-between gap-5">
         {/* Single Food Left */}
         <div className="w-full sm:w-[264px] h-[270px] sm:h-[264px] sm:rounded-2xl overflow-hidden sm:mx-0 mx-auto">
-          <Image
-            width={264}
-            height={264}
-            src={food.foodImage}
-            alt="Single Food Image"
-            className="w-full h-full object-cover"
-          />
+          <Swiper
+            grabCursor={true}
+            pagination={{
+              type: "fraction",
+            }}
+            navigation={true}
+            modules={[Pagination, Navigation]}
+            className="mySwiper w-full h-full"
+          >
+            {food.foodImages.map((image, index) => (
+              <SwiperSlide key={index}>
+                <Image
+                  width={264}
+                  height={264}
+                  src={image}
+                  alt="Single Food Image"
+                  className="w-full h-full object-cover"
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
 
         {/* Single Food Right */}

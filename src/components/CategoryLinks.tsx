@@ -7,7 +7,7 @@ import { useState } from "react";
 const CategoryLinks = () => {
   const [active, setActive] = useState("burger");
   return (
-    <nav className="bg-white sm:rounded-xl sm:py-4 flex-y sm:shadow-sections sticky top-24 ">
+    <nav className="bg-white sm:rounded-xl sm:py-4 flex-y sm:shadow-sections sticky top-24">
       <h2 className="font-medium text-xl text-black-100 pl-4 pb-3 sm:block hidden">
         Разделы
       </h2>
