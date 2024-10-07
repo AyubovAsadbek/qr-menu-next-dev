@@ -20,7 +20,7 @@ import { Pagination, Navigation } from "swiper/modules";
 type SingleFoodProps = {
   food: {
     foodName: string;
-    foodImages: string;
+    foodImages: string[];
     oldPrice?: string;
     newPrice: string;
     discount?: string;

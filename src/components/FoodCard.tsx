@@ -14,7 +14,7 @@ import { EffectCube, Pagination } from "swiper/modules";
 type FoodCardProps = {
   food: {
     foodName: string;
-    foodImages: string;
+    foodImages: string[];
     oldPrice?: string;
     newPrice: string;
     discount?: string;

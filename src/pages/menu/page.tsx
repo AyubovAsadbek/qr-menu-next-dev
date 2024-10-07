@@ -11,7 +11,7 @@ import Image from "next/image";
 import { Icon } from "@/components/Icon";
 type Food = {
   foodName: string;
-  foodImages: string;
+  foodImages: string[];
   oldPrice?: string;
   newPrice: string;
   discount?: string;
