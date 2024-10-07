@@ -45,17 +45,19 @@ const BasketCard = ({ food }: BasketCardProps) => {
           modules={[EffectCube, Pagination]}
           className="w-full h-full FoodCardSwiper"
         >
-          {food.foodImages.map((image, index) => (
-            <SwiperSlide key={index} className="w-full h-full">
-              <Image
-                src={image}
-                alt="Food Image"
-                width={80}
-                height={80}
-                className="w-full h-full"
-              />
-            </SwiperSlide>
-          ))}
+          {food?.foodImages &&
+            Array.isArray(food.foodImages) &&
+            food.foodImages.map((image, index) => (
+              <SwiperSlide key={index} className="w-full h-full">
+                <Image
+                  src={image}
+                  alt="Food Image"
+                  width={80}
+                  height={80}
+                  className="w-full h-full"
+                />
+              </SwiperSlide>
+            ))}
         </Swiper>
       </div>
       {/* Card Right */}

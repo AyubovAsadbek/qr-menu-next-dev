@@ -49,17 +49,18 @@ const FoodCard = ({ food }: FoodCardProps) => {
           modules={[EffectCube, Pagination]}
           className="FoodCardSwiper"
         >
-          {food.foodImages.map((image, index) => (
-            <SwiperSlide key={index}>
-              <Image
-                src={image}
-                alt="Food Image"
-                width={80}
-                height={80}
-                className="w-full h-full"
-              />
-            </SwiperSlide>
-          ))}
+          {Array.isArray(food.foodImages) &&
+            food.foodImages.map((image, index) => (
+              <SwiperSlide key={index}>
+                <Image
+                  src={image}
+                  alt="Food Image"
+                  width={80}
+                  height={80}
+                  className="w-full h-full"
+                />
+              </SwiperSlide>
+            ))}
         </Swiper>
       </div>
       {/* Card Right */}
