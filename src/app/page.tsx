@@ -1,18 +1,8 @@
-import SearchWrapper from "@/components/SearchWrapper";
-import Categories from "@/components/Categories";
+import ComingPage from "@/pages/coming/page";
+import React from "react";
 
-export default function Home() {
-  return (
-    <>
-      <div className="pb-20 sm:pb-0">
-        {/* Search Wrapper */}
-        <div className="container">
-          <SearchWrapper />
-        </div>
+const page = () => {
+  return <ComingPage />;
+};
 
-        {/* CaTegories */}
-        <Categories />
-      </div>
-    </>
-  );
-}
+export default page;

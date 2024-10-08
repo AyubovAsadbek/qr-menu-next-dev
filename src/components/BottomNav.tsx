@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import { Icon } from "./Icon";
 import { BottomNavItems } from "@/data/data";
 import { usePathname } from "next/navigation";
-import { useAppSelector } from "@/redux/store";
+// import { useAppSelector } from "@/redux/store";
 
 const BottomNav = () => {
   const pathname = usePathname();
@@ -15,8 +15,8 @@ const BottomNav = () => {
     setActiveNav(pathname);
   }, [pathname]);
 
-  const count = useAppSelector((state) => state.basket.amount);
-  console.log(count);
+  // const count = useAppSelector((state) => state.basket.amount);
+  // console.log(count);
 
   return (
     <div className="fixed w-full bottom-0 h-16 bg-white flex sm:hidden items-center justify-between gap-3 px-8 border-t border-white-300">
@@ -41,7 +41,7 @@ const BottomNav = () => {
           {activeNav === navItem.href ? <span>{navItem.label}</span> : null}
           {navItem.href === "/basket" ? (
             <span className="absolute -right-1 -top-1 h-4 text-white px-1 bg-red text-xs font-semibold leading-4 rounded-full">
-              {count}
+              {/* {count} */}4
             </span>
           ) : null}
         </Link>

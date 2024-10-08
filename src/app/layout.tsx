@@ -1,13 +1,6 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 
-// Components
-import Footer from "@/components/Footer";
-import BottomNav from "@/components/BottomNav";
-import Navbar from "@/components/Navbar";
-import Hero from "@/components/Hero";
-import { ReduxProvider } from "@/redux/provider";
-
 // Styles
 import "./globals.css";
 
@@ -33,17 +26,7 @@ export default function RootLayout({
         {/* favicon */}
         <link rel="icon" href="./icons/favicon-icon.svg" />
       </head>
-      <body className={`${roboto.variable}`}>
-        <ReduxProvider>
-          <Navbar />
-          <Hero />
-          <main className="flex-grow">{children}</main>
-          <Footer />
-
-          {/* Mobile Bottom Nav */}
-          <BottomNav />
-        </ReduxProvider>
-      </body>
+      <body className={`${roboto.variable}`}>{children}</body>
     </html>
   );
 }
