@@ -10,7 +10,7 @@ const FeedbackCard = () => {
       <div className="flex-y-center gap-2">
         <div className="w-11 h-11 rounded-full overflow-hidden">
           <Image
-            src={"./images/svg/feedback-profile.svg"}
+            src={"/images/svg/feedback-profile.svg"}
             width={44}
             height={44}
             alt="Feedback profile Image"
@@ -45,7 +45,7 @@ const FeedbackCard = () => {
       <div className="flex-y-center justify-between">
         <div className="flex-y-center gap-1">
           <Image
-            src={"./images/svg/ProfileImages.svg"}
+            src={"/images/svg/ProfileImages.svg"}
             width={50}
             height={50}
             alt="Images"

@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <div className="w-full h-screen fixed top-0 z-50 flex-x-center gap-5 justify-center text-center bg-white-100 ">
       <Image
-        src={"/images/svg/404.svg"}
+        src={"./images/svg/404.svg"}
         alt="404 Image"
         width={300}
         height={300}

@@ -568,31 +568,31 @@ const languageItems = [
   {
     flag: "uz",
     label: "O'zbekcha",
-    image: "./images/svg/uz-m-flag.svg",
+    image: "/images/svg/uz-m-flag.svg",
     locale: "uz",
   },
   {
     flag: "uz",
     label: "Ўзбекча",
-    image: "./images/svg/uz-m-flag.svg",
+    image: "/images/svg/uz-m-flag.svg",
     locale: "la",
   },
   {
     flag: "qar",
     label: "Qaraqalpaqsha",
-    image: "./images/svg/qar-m-flag.svg",
+    image: "/images/svg/qar-m-flag.svg",
     locale: "qar",
   },
   {
     flag: "gb",
     label: "English",
-    image: "./images/svg/gb-m-flag.svg",
+    image: "/images/svg/gb-m-flag.svg",
     locale: "en",
   },
   {
     flag: "ru",
     label: "Русский",
-    image: "./icons/globe-icon.svg",
+    image: "/icons/globe-icon.svg",
     locale: "ru",
   },
 ];

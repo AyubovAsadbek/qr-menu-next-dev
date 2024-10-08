@@ -18,7 +18,7 @@ const DesktopNav: React.FC = () => {
     >
       <div className="container py-6 flex justify-between">
         {/* Logo */}
-        <Link href="/">
+        <Link href="/evos">
           <Image
             src={"/images/svg/logo-dark.svg"}
             alt="Logo Image"

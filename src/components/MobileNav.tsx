@@ -99,7 +99,7 @@ const MobileNav: React.FC = () => {
         </div>
         <div className="mt-3 flex items-center justify-between">
           <Image
-            src="images/svg/avatar-small.svg"
+            src="/images/svg/avatar-small.svg"
             alt="Avatar small"
             width={48}
             height={48}

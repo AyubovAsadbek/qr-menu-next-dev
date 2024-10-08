@@ -1,8 +1,7 @@
-import ComingPage from "@/pages/coming/page";
-import React from "react";
+import HomePage from "@/pages/home/page";
 
 const page = () => {
-  return <ComingPage />;
+  return <HomePage />;
 };
 
 export default page;
